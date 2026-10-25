@@ -1,0 +1,40 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.suitestudios.io/pricing
+sources:
+- https://www.suitestudios.io/pricing
+name: Suite pricing
+audience: business-product
+pricing_basis: per-call
+plans:
+- name: Managed
+  price_text: $75 per TB · per month
+  price: 75
+  description: Full access to Suite’s file streaming infrastructure, managed and maintained for you. Includes 5 users.
+  features:
+  - Included + 5 users
+  - $10 / user / month additional
+  - Suite Connect external transfer
+  - Bandwidth limiting
+  - multiple drives
+  - AES-256 encryption in transit & at rest
+  - Live support
+  - knowledge base
+  - 14-day free trial
+  limits:
+  - name: Storage
+    limit_text: per TB
+- name: Enterprise
+  price_text: Custom
+  description: Dedicated infrastructure, custom storage pricing, white‑glove onboarding, and a dedicated account manager.
+  features:
+  - Bring your own storage (optional)
+  - S3 Native read & write (coming soon)
+  - Onsite caching · instant archive
+  - SSO · SCIM · MFA team requirement
+  - Enterprise SLA · dedicated account manager
+  limits:
+  - name: Storage
+    limit_text: Infinite
+docs: https://www.suitestudios.io/pricing

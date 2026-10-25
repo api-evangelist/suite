@@ -1,25 +1,82 @@
 aid: suite
+
 name: Suite
-description: 'Suite is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by bonfire-ventures) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://framerusercontent.com/assets/h54U5EaJb1W3KVnXQWI5Si9EqU8.png
+
+description: 'Suite Studios provides cloud storage and file streaming solutions for creative teams, offering S3‑native streaming, fast file sharing, and enterprise‑grade security. Their platform enables seamless collaboration on large media projects, with features like shared cache, transactional writes, and scalable storage across the cloud.'
+
 url: https://raw.githubusercontent.com/api-evangelist/suite/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- Cloud Storage
+- Media Collaboration
+- File Streaming
+- Enterprise
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- bonfire-ventures
+
 common:
+- type: Plans
+  url: plans/suite-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/suite-llms.txt
+- type: SecurityTxt
+  url: well-known/suite-support-security.txt
+- type: WellKnown
+  url: well-known/suite-well-known.yml
+- type: Hosts
+  url: hosts/suite-hosts.yml
+- type: Support
+  url: https://support.suitestudios.io/en/
+- type: SignUp
+  url: https://www.suitestudios.io/sign-up
+- type: Pricing
+  url: https://www.suitestudios.io/pricing
+- type: Blog
+  url: https://blog.suitestudios.io/
+- type: DomainSecurity
+  url: security/suite-domain-security.yml
 - type: Website
   url: https://suitestudios.io
+
+apis: []
+
+x-backed-by:
+- bonfire-ventures
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://suitestudios.io
+    status: 200
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

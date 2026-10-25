@@ -1,0 +1,76 @@
+generated: '2026-10-25'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 5
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - identity
+  - marketing
+  - support
+  - website
+hosts:
+- host: api.suitestudios.io
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: suitestudios.io
+  role: api
+  relation: own
+- host: blog.suitestudios.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Blog
+  serves: []
+  registrable_domain: suitestudios.io
+  role: marketing
+  relation: own
+- host: suitestudios.io
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  serves: []
+  registrable_domain: suitestudios.io
+  role: website
+  relation: own
+- host: support.suitestudios.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Support
+  serves: []
+  registrable_domain: suitestudios.io
+  role: support
+  relation: own
+- host: www.suitestudios.io
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - SignUp
+  - Pricing
+  serves: []
+  registrable_domain: suitestudios.io
+  role: identity
+  relation: own

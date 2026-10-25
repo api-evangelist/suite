@@ -1,0 +1,106 @@
+# Suite Studios Knowledge Base
+
+> Advice and answers from the Suite Studios team
+
+## Installation & Setup
+
+- [Installing Suite Storage on Windows](https://support.suitestudios.io/en/articles/7971589-installing-suite-storage-on-windows.md): A step-by-step guide for installing Suite on Windows.
+- [Installing Suite Storage on Linux](https://support.suitestudios.io/en/articles/9504885-installing-suite-storage-on-linux.md): A step-by-step guide for installing Suite on Linux.
+- [How to uninstall Suite Storage](https://support.suitestudios.io/en/articles/8022898-how-to-uninstall-suite-storage.md): Instructions for uninstalling Suite on both Mac and Windows.
+- [Suite Storage requirements, limitations & specifications](https://support.suitestudios.io/en/articles/8055382-suite-storage-requirements-limitations-specifications.md): Supported operating systems, internet connectivity, RAM requirements, and other specifications for Suite.
+- [Windows Compatibility and Restricted Filenames](https://support.suitestudios.io/en/articles/8063637-windows-compatibility-and-restricted-filenames.md): Information on filename restrictions for compatibility between macOS and Windows, and how to manage these settings.
+- [Installing Suite on Mac with macFUSE](https://support.suitestudios.io/en/articles/8104361-installing-suite-on-mac-with-macfuse.md)
+- [Changing the Name of Your Suite Drive](https://support.suitestudios.io/en/articles/11101820-changing-the-name-of-your-suite-drive.md): Follow these steps to update your team's drive name.
+- [Running Suite as a Linux service](https://support.suitestudios.io/en/articles/11395717-running-suite-as-a-linux-service.md): Below are steps for setting up a start Daemon for Suite on Rocky Linux 9 or Ubuntu 22.04 and 24.04.
+- [Shared Access to Suite Volume on Linux](https://support.suitestudios.io/en/articles/10375180-shared-access-to-suite-volume-on-linux.md): Suite on Linux limits volume access by default. To allow all users \(incl. root\) read/write access, enable FUSE\_ALLOW\_OTHER.
+
+## Getting Started
+
+- [Getting Started Guide - Suite Storage](https://support.suitestudios.io/en/articles/8104319-getting-started-guide-suite-storage.md): A comprehensive guide to understanding and navigating Suite.
+- [Suite Setup 101: Performance Basics Every Suite User Should Follow](https://support.suitestudios.io/en/articles/8833855-suite-setup-101-performance-basics-every-suite-user-should-follow.md): Use this guide to get the best performance while working from Suite.
+- [Understanding your Drive Status](https://support.suitestudios.io/en/articles/8055374-understanding-your-drive-status.md): Understand the different drive statuses and what each status means.
+- [How do I upload a file to Suite Storage?](https://support.suitestudios.io/en/articles/8055448-how-do-i-upload-a-file-to-suite-storage.md): Learn how to upload files to Suite, confirm an upload was successful, and diagnose errors that may occur during an upload.
+- [How do I see how much storage I'm using?](https://support.suitestudios.io/en/articles/7971574-how-do-i-see-how-much-storage-i-m-using.md): How to monitor your storage usage within the Suite dashboard.
+- [What is Time Machine?](https://support.suitestudios.io/en/articles/8022855-what-is-time-machine.md): This feature lets users retrieve and restore deleted files or earlier file versions.
+- [Sharing a link to a file or folder](https://support.suitestudios.io/en/articles/8602692-sharing-a-link-to-a-file-or-folder.md): Generate and share links to files or folders stored on Suite with other team members.
+
+## Team Management
+
+- [Managing Team Settings](https://support.suitestudios.io/en/articles/7971610-managing-team-settings.md): Manage user permissions, add or delete team members, and set admin privileges.
+- [User Permissions](https://support.suitestudios.io/en/articles/8291568-user-permissions.md): Control access by assigning file, folder, and external transfer permissions to team members.
+- [Managing Group Settings](https://support.suitestudios.io/en/articles/9922934-managing-group-settings.md): Manage user permissions, add or delete users and groups, and assign users to groups.
+- [Read Only Permissions](https://support.suitestudios.io/en/articles/10136275-read-only-permissions.md): Read-only settings help teams manage shared data confidently, ensuring that their files stay accurate and secure while still supporting teamwork.
+
+## Cache Management
+
+- [Understanding Suite's Cache](https://support.suitestudios.io/en/articles/8022828-understanding-suite-s-cache.md): How Suite's Cache works and and how it improves performance
+- [Setting Your Cache Location and Size](https://support.suitestudios.io/en/articles/7971584-setting-your-cache-location-and-size.md): Configure your cache settings for optimal performance.
+- [Utilization Bar: On-Demand vs Pre-Cache](https://support.suitestudios.io/en/articles/10135624-utilization-bar-on-demand-vs-pre-cache.md): Learn the difference between On-Demand and Pre-Caching
+- [Pre-caching Files and Folders](https://support.suitestudios.io/en/articles/8208172-pre-caching-files-and-folders.md): Reduce reliance on your internet speed and eliminate lag by “Pre-Caching” files and folders.
+- [How do I clear my cache?](https://support.suitestudios.io/en/articles/9123975-how-do-i-clear-my-cache.md): The process and implications of clearing your cache.
+- [Moving your cache location](https://support.suitestudios.io/en/articles/9251403-moving-your-cache-location.md): Learn how to change the location of your cache to a new internal or external SSD.
+- [Cache Drive Format FAQ](https://support.suitestudios.io/en/articles/9105738-cache-drive-format-faq.md): Ensure your cache drive is formatted correctly to work with Suite
+- [Best Cache Drives to Buy for Maximum Performance](https://support.suitestudios.io/en/articles/8780699-best-cache-drives-to-buy-for-maximum-performance.md): Recommended drives if you're considering upgrading or purchasing a new Solid State Drive \(SSD\) to use with Suite.
+- [Using multiple cache drives in Suite](https://support.suitestudios.io/en/articles/9945515-using-multiple-cache-drives-in-suite.md): Manage Multiple Cache Drives for Large Projects
+
+## Optimizing Performance
+
+- [How to Use Bandwidth Limiting in Suite](https://support.suitestudios.io/en/articles/10008302-how-to-use-bandwidth-limiting-in-suite.md): Optimize Your Internet Connection by Managing Suite’s Bandwidth Settings
+- [Adobe Premiere: Optimizations and Workflows](https://support.suitestudios.io/en/articles/8055419-adobe-premiere-optimizations-and-workflows.md): Adjust Adobe Premiere’s settings on your computer for a smooth editing experience on Suite.
+- [Adobe Media Encoder: Optimizations](https://support.suitestudios.io/en/articles/11474243-adobe-media-encoder-optimizations.md): Achieve best performance with Adobe Media Encoder and Suite
+- [Adobe After Effects: Optimizations](https://support.suitestudios.io/en/articles/11395543-adobe-after-effects-optimizations.md): Adjust your Adobe After Effects settings for best performance while using Suite.
+- [Adobe Photoshop: Optimizations and Workflows](https://support.suitestudios.io/en/articles/13311485-adobe-photoshop-optimizations-and-workflows.md): Configure Photoshop for maximum performance and stability when using it with Suite.
+- [Adobe InDesign: Optimizations](https://support.suitestudios.io/en/articles/13552989-adobe-indesign-optimizations.md): Adjust some of Adobe InDesign's preferences, the Display Performance of your document or individual objects, and live preflighting for best performance with Suite.
+- [Avid Media Composer: Optimizations and Workflows](https://support.suitestudios.io/en/articles/9176233-avid-media-composer-optimizations-and-workflows.md): Optimize Avid Media Composer usage with a shared Avid Project and media stored on Suite.
+- [Pro Tools: Optimizations and Workflows](https://support.suitestudios.io/en/articles/11482139-pro-tools-optimizations-and-workflows.md): Learn what's needed to work on a Pro Tools Session stored on Suite.
+- [DaVinci Resolve: Optimizations and Workflows](https://support.suitestudios.io/en/articles/11876623-davinci-resolve-optimizations-and-workflows.md): Configure DaVinci Resolve for maximum performance, discover practical ways to improve playback for certain Clips, and weigh out your collaboration options with Suite.
+- [Final Cut Pro: Optimizations and Workflows](https://support.suitestudios.io/en/articles/15556593-final-cut-pro-optimizations-and-workflows.md): Learn how to keep your Final Cut Pro Libraries lightweight for maximum performance and which collaboration options are available when working from Suite.
+- [Disable Icon Previews in Finder or File Explorer](https://support.suitestudios.io/en/articles/12543144-disable-icon-previews-in-finder-or-file-explorer.md): Disabling Icon Previews increases performance by allowing you to browse files in Suite without having to stream each icon preview.
+
+## Support & Troubleshooting
+
+- [How do I contact Support?](https://support.suitestudios.io/en/articles/7971565-how-do-i-contact-support.md): Get help fast via live chat, email, or Slack - our team is here to assist!
+- [Why is my Suite drive empty?](https://support.suitestudios.io/en/articles/8566491-why-is-my-suite-drive-empty.md): Troubleshooting steps for users who don’t see files or folders in their Suite drive.
+- [I can't find the Suite Drive in Finder](https://support.suitestudios.io/en/articles/9057457-i-can-t-find-the-suite-drive-in-finder.md): Locate and restore the Suite drive in Finder if it disappears \(Mac\).
+- [Experiencing Slowness During Uploads?](https://support.suitestudios.io/en/articles/11395808-experiencing-slowness-during-uploads.md): Suite relies on your Internet connection to upload your data. If uploads feel slower than expected, double-check these items.
+- [Experiencing Slowness When Pre-Caching?](https://support.suitestudios.io/en/articles/11421308-experiencing-slowness-when-pre-caching.md): Suite relies on your Internet connection to download your data to the cache. If things feel slower than expected, double-check these items.
+- [I can't find the Suite Drive in File Explorer](https://support.suitestudios.io/en/articles/9788310-i-can-t-find-the-suite-drive-in-file-explorer.md): Easily locate the Suite drive in File Explorer if it disappears \(Windows\).
+- [I'm unable to add a team member](https://support.suitestudios.io/en/articles/9151043-i-m-unable-to-add-a-team-member.md): Learn how to troubleshoot errors when adding team members and resolve any email conflicts.
+- [Error updating my cache location](https://support.suitestudios.io/en/articles/9715096-error-updating-my-cache-location.md): Resolve errors encountered when changing your cache location
+- [How do I pause or cancel an upload in Suite?](https://support.suitestudios.io/en/articles/8652531-how-do-i-pause-or-cancel-an-upload-in-suite.md): Discover how to cancel uploads by force-quitting Suite as a last resort and free up bandwidth for other apps to upload simultaneously.
+- [What do I do if I am receiving an error message?](https://support.suitestudios.io/en/articles/8022901-what-do-i-do-if-i-am-receiving-an-error-message.md): Troubleshoot and resolve error messages encountered during file uploads to Suite.
+- [What is Submit Logs?](https://support.suitestudios.io/en/articles/8022907-what-is-submit-logs.md): Use "Submit Logs" to help our support team diagnose and resolve issues.
+- [Suite CLI](https://support.suitestudios.io/en/articles/9596652-suite-cli.md): A simple guide to using the Suite Command Line Interface \(CLI\)
+- [Setting Your Local Windows Drive Letter via CLI](https://support.suitestudios.io/en/articles/9579048-setting-your-local-windows-drive-letter-via-cli.md): Follow this simple guide to use your Command line interface \(CLI\) to change the drive letter on your local Windows machine.
+
+## Account Management
+
+- [How do I manage my billing information?](https://support.suitestudios.io/en/articles/8022920-how-do-i-manage-my-billing-information.md): How to update your payment method, billing information, and access invoice history.
+- [Month-to-Month Plan: How It Works](https://support.suitestudios.io/en/articles/8047705-month-to-month-plan-how-it-works.md): Everything you need to know about billing, storage, and user updates on our month-to-month setup.
+- [How do I reset or change my password?](https://support.suitestudios.io/en/articles/7971603-how-do-i-reset-or-change-my-password.md): Steps to reset or change your password, including troubleshooting tips.
+- [Canceling Suite Storage](https://support.suitestudios.io/en/articles/8148976-canceling-suite-storage.md): Instructions for canceling your month-to-month plan.
+- [MFA on Suite](https://support.suitestudios.io/en/articles/11758218-mfa-on-suite.md): Learn how to setup MFA on Suite
+- [Integrating Suite with Okta](https://support.suitestudios.io/en/articles/8563499-integrating-suite-with-okta.md): A step-by-step guide to integrating Okta with Suite
+- [Integrating Suite with Microsoft Entra ID \(Formerly Azure AD\)](https://support.suitestudios.io/en/articles/9043717-integrating-suite-with-microsoft-entra-id-formerly-azure-ad.md): A step-by-step guide for integrating Suite with Microsoft Entra ID for SSO authentication.
+- [Integrating Suite with Google as the IdP](https://support.suitestudios.io/en/articles/11421118-integrating-suite-with-google-as-the-idp.md): A step-by-step guide to integrating Google with Suite
+- [Integrating Suite with JumpCloud](https://support.suitestudios.io/en/articles/11664115-integrating-suite-with-jumpcloud.md): A step-by-step guide to integrating JumpCloud with Suite
+- [Integrating Suite with OneLogin](https://support.suitestudios.io/en/articles/10292278-integrating-suite-with-onelogin.md): A step-by-step guide for integrating Suite with OneLogin for SSO authentication.
+- [Single Sign-On \(SSO\) on Suite](https://support.suitestudios.io/en/articles/8563923-single-sign-on-sso-on-suite.md): Guide to setting up and using Single Sign-On \(SSO\) with Suite, including configuration and login steps.
+
+## External Transfer Links
+
+- [External Transfer Links](https://support.suitestudios.io/en/articles/9247530-external-transfer-links.md): Generate and manage External Transfer Links for secure file transfer to and from non-Suite team members.
+- [The Suite Connect App](https://support.suitestudios.io/en/articles/9247554-the-suite-connect-app.md): A guide for non-Suite team members to upload files directly to a Suite Drive using the Suite Connect App.
+
+## Frequently Asked Questions
+
+- [How is Suite Storage different from Network Attached Storage \(NAS\)?](https://support.suitestudios.io/en/articles/8047531-how-is-suite-storage-different-from-network-attached-storage-nas.md): Compare Suite to Network Attached Storage \(NAS\) - instant scalability, remote access, and managed infrastructure.
+- [How is Suite different from traditional cloud storage?](https://support.suitestudios.io/en/articles/8047593-how-is-suite-different-from-traditional-cloud-storage.md): How Suite outperforms traditional cloud storage by offering instant access to large files without syncing or downloading.
+- [What internet speed is recommended for Suite Storage?](https://support.suitestudios.io/en/articles/8444791-what-internet-speed-is-recommended-for-suite-storage.md): The relationship between internet speed and media bitrate to ensure a smooth experience.
+- [What is Bring Your Own Storage \(BYO\)](https://support.suitestudios.io/en/articles/8302694-what-is-bring-your-own-storage-byo.md): BYO - leverage your existing cloud storage account with Suite.
+- [A simple guide to migrating to Suite Storage](https://support.suitestudios.io/en/articles/8106739-a-simple-guide-to-migrating-to-suite-storage.md): Step-by-step guide for migrating data, including running speed tests and estimating transfer times.
+- [Does Suite Have a Referral Program?](https://support.suitestudios.io/en/articles/9894028-does-suite-have-a-referral-program.md): Refer Creatives to Suite and Earn Rewards
+- [Can I use Suite offline?](https://support.suitestudios.io/en/articles/9957227-can-i-use-suite-offline.md): The Importance of Staying Connected: Why Suite Requires an Internet Connection
+- [Suite's Public Release Notes](https://support.suitestudios.io/en/articles/11787854-suite-s-public-release-notes.md): Find the latest updates to Suite, including new features, improvements, and bug fixes!
+- [Instant Archive](https://support.suitestudios.io/en/articles/11759417-instant-archive.md): Learn about Suite’s Instant Archive feature—how it works, when to use it, and how it helps optimize your workflow!
+- [Status of Suite](https://support.suitestudios.io/en/articles/12622709-status-of-suite.md)
